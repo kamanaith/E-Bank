@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  .body{  
+    margin: 6px;
+  }
+
+  header{
+background-color: rgb(22, 22, 72);
+    text-align: center;
+    color: wheat;
+    padding: 6px;
+  }
+  #nav-wrapper{
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left:10% ;
+    margin-right: 10%;
+  
+  }
+  
+  ul{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; 
+  }
+  li{
+    background-color: white;
+    margin: 10px;
+    font-size: large;
+    text-align: right;
+  }
+
+  li a{
+   padding: auto;
+    color: rgb(12, 12, 34);
+    text-decoration: none;
+  }
+
+  button{
+    background-color: rgb(243, 189, 83);
+    font-size: large;
+    text-wrap: stable;
+   margin: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 5%;
+  }
+  #login{
+    margin-left: 1px;
+    color:rgb(12, 12, 36) ;
+  }
+  button a{
+    text-decoration: none;
+  }
+  .container img{
+    margin: 10px;
+    padding: 5px;
+    height: 40px;
+  }  
+  #hero_image{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+   height: 50%;
+    background-color: rgb(22, 22, 72);
+    width: 100%;
+    
+  }
+  #main-section{
+    position: relative;
+  }
+  .landing-main-image{
+    width: max-content;
+  }
+ .sub-section{
+  position: relative;
+ }
+
+.sub-section-wrapper{
+  position:absolute;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+ bottom:-5rem;
+ margin-left: 20%;
+ margin-right: 20%;
+}
+.card{
+  width: 150px;
+  min-height: 100px;
+  height: fit-content;
+text-align: center;
+  justify-content:center;
+  background-color: white;
+  margin: 30px;
+  z-index: 10;
+ border: 1px solid black;
+ border-radius: 5%;
+ cursor: pointer;
+ box-shadow: 2px 2px  grey;
+}
+
+.card:hover{
+  z-index: 100;
+  background-color: rgba(0, 0, 255, 0.295);
+  color: white;
+  transition: 0.2s all linear;
+}
+
+.card h3{
+  padding-top: 1opx;
+  font-size: 1rem;
+}
+.sub-section-image{
+  width: 50px;
+  margin-top: 10px;
+  height: 50px;
+ align-items: center;
+ padding: 10px;
+}
+
+#paragraph-section{
+  margin-top: 100px;
+  background-color:rgb(22, 22, 72) ;
+  color: white;
+  text-align: justify;
+}
+.paragraph-section-img{
+  margin: 50px;
+  height: 400px;
+}
+
+.paragraph-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.paragraph-content{
+  margin: 8%;
+  margin: 20px;
+  padding: 5%;
+ 
+
+}
+.paragraph-heading{
+ font-size: xx-large;
+  margin: 12px;
+}
+.p{
+  font-size: x-large;
+  padding: 50px;
+}
+#transaction-section{
+  background-color: white;
+  margin-bottom: 20px;
+}
+.heading{
+  margin: 50px;
+  text-align: center;
+  
+  color: rgb(22, 22, 72);
+  font-size: large;
+}
+.transaction-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.transaction-img{
+  width: 150px;
+  height: 100px;
+ margin-left: 15%;
+}
+#newsletter-section{
+  background-color:  rgb(22, 22, 72);
+  color: white;
+  text-align: center;
+}
+.news-letter-content{
+  padding: 50px;
+}
+.news-letter-header{
+  margin-bottom: 25px;
+}
+.map{
+ width: 100%;
+}
+.footer-logo-img{
+
+  height: 40px;
+  width: 75px;
+  margin: 20px;
+}
+#footer-section{
+  background-color:rgb(22, 22, 72); ;
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+ 
+  color: wheat;
+  
+}
+.first-section{
+margin-left: auto;
+padding: 2%;
+}
+.second-section{
+ padding: 2%;
+  margin-top: 30px;
+}
+.second-section h2{
+  text-align: center;
+}
+.footer-link{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+
+text-decoration: none;
+text-align: center;
+margin: auto;
+padding: auto;
+}
+.footer-link a{
+  text-decoration: none;
+  color: wheat;
+}
+.third-section{
+  margin-top: 30px;
+  padding: 2%;
+  text-align: center;
+}
+.third-section h2{
+  text-align: center;
+}
+.fourth-section{
+padding: 2%;
+margin-right: auto;
+text-align: center;
+}
+.fourth-section p{
+  text-wrap: wrap;
+padding: 5px;
+}
+.fourth-section button{
+  background-color: black;
+}
+#copy-right{
+  margin-top: 2px;
+  padding: 20px;
+background-color: rgb(22, 22, 72);
+color: wheat;
+text-align: center;
+}
