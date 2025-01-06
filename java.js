@@ -18,6 +18,7 @@ hamMenuIcon.addEventListener( 'click', () =>{
 cancelIcon.addEventListener('click', () =>{
     hamMenu.classList.toggle('active');
     hamMenuIcon.style.display = ("flex");
-  
 })
+
+
 
